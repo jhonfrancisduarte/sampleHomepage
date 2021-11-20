@@ -1,7 +1,7 @@
 import * as THREE from 'https://unpkg.com/three@0.126.1/build/three.module.js';
 import { OrbitControls } from 'https://unpkg.com/three@0.126.1/examples/jsm/controls/OrbitControls.js';
-import * as dat from 'dat.gui'
-import { gsap } from "gsap";
+//import * as dat from 'dat.gui'
+//import { gsap } from "gsap";
 //const gui = new dat.GUI()
 const world = {
   plane: {
