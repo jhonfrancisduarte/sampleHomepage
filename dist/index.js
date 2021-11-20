@@ -107,19 +107,6 @@ function animate() {
   const intersects = raycaster.intersectObject(planeMesh)
   if (intersects.length > 0){
     const {color} = intersects[0].object.geometry.attributes
-    //vertice 1
-    color.setX(intersects[0].face.a, 0.1)
-    color.setY(intersects[0].face.a, 0.5)
-    color.setZ(intersects[0].face.a, 1)
-    //vertice 2
-    color.setX(intersects[0].face.b, 0.1)
-    color.setY(intersects[0].face.b, 0.5)
-    color.setZ(intersects[0].face.b, 1)
-    //vertice 3
-    color.setX(intersects[0].face.c, 0.1)
-    color.setY(intersects[0].face.c, 0.5)
-    color.setZ(intersects[0].face.c, 1)
-
     intersects[0].object.geometry.attributes.color.needsUpdate = true
     const initialColor = {
       r: 0,
