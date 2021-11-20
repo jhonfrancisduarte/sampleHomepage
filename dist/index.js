@@ -5,6 +5,7 @@ import * as gsap from 'https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.mi
 import { gsap } from "gsap";
 import { gsap } from "gsap/dist/gsap";
 //const gui = new dat.GUI()
+const { gsap } = require("gsap/dist/gsap");
 const world = {
   plane: {
     width: 400,
