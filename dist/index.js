@@ -133,7 +133,7 @@ function animate() {
       g: 0.5,
       b: 1
     }
-    gsap.to(hoverColor, {
+    gsap.from(hoverColor, {
       r: initialColor.r,
       g: initialColor.g,
       b: initialColor.b,
